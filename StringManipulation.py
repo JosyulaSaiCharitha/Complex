@@ -7,7 +7,6 @@ max_occ = {}
 
 for i in string_input:
     max_occ[i]=string_input.count(i)
-print((max_occ))
 
 for j in max_occ:
     print(f"{j}={max_occ[j]}", end=" ")
