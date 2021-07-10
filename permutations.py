@@ -7,7 +7,6 @@ def fib(n):
         return n
     return fib(n - 1) + fib(n - 2)
 
-
 # Returns no. of ways to
 # reach sth stair
 def countWays(s):
