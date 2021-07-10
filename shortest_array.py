@@ -13,7 +13,7 @@ shortest = min([len(i) for i in arrays])
 for i in arrays:
     if len(i) == shortest:
         print(f"shortest array is {i}")
-        print(f"Length: {arrays.index(i)}")
+        print(f"Length: {len(i)}")
 
 
 
